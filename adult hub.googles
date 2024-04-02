@@ -1,0 +1,23 @@
+! name: AdultHub
+! description: Rerank results to boost content on Adult Sites.
+! public: true
+! author: Bucket101
+! avatar: #ffff00
+$discard,site=www.w3schools.com
+$discard,site=geeksforgeeks.org
+$discard,site=google.com
+$discard,site=quora.com
+
+$boost=1,site=youporn.com
+$boost=1,site=thefantazy.com
+$boost=1,site=fapello.com
+
+! /search.$boost=4
+$boost=3,site=erome.com
+$boost=3,spankbang.com
+$boost=3,site=pornhub.com
+
+! /shemale.$boost=5
+
+$boost=4,site=ashemaletube.com
+.xxx$boost=4
